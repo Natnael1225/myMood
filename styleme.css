@@ -1,0 +1,17 @@
+/*This is a basic style for abput me page*/
+body{
+    background-color: rgb(220, 238, 245);
+}
+.bio{
+    color: midnightblue;
+    text-decoration: underline;
+    font-weight: bold;
+}
+h3{
+    color: cornflowerblue;
+}
+span{
+    font-style: italic;
+}
+
+
