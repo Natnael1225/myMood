@@ -6,7 +6,7 @@ h2{
     font-weight: bold;
     font-size: 22pt;
     text-decoration: underline;
-    color: #31610986;
+    color: #61092286;
 }
 /*Secondary header  with font and text style, size, decoration*/
 h3{
@@ -21,7 +21,7 @@ h3{
 /*The page body with font and text style, size, decoration and background image */
 body{
     background-color: white;
-    color: #404040;
+    color: #111010;
     font-size: 11pt;
     font-weight: normal;
     font-family: Georgia, Garamond, serif;
@@ -73,7 +73,7 @@ ul{
 }
 /*home and search links style*/
 .links{
-    color: #A4A400;
+    color: #3c0515;
 }
 #striked{
     text-decoration-line: line-through;
