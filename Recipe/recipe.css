@@ -1,0 +1,81 @@
+/*My main header with font and text style, size, decoration*/
+h2{
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica,Arial,sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22pt;
+    text-decoration: underline;
+    color: #A4A400;
+}
+/*Secondary header  with font and text style, size, decoration*/
+h3{
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica,Arial,sans-serif;
+    text-align: left;
+    font-weight: normal;
+    font-size: 18pt;
+    text-decoration: underline;
+    color: #A4A400;
+}
+/*The page body with font and text style, size, decoration and background image */
+body{
+    background-color: white;
+    color: #404040;
+    font-size: 11pt;
+    font-weight: normal;
+    font-family: Georgia, Garamond, serif;
+    background-image: url("WAP all projects/Robel921.github.io/w1d2_recepi/recipeImages/silverware.jpg");
+}
+/*Abbreviations with hover */
+#teaspoon:hover{
+     text-decoration: underline;
+     color: red;
+ }
+/*Abbreviations with hover */
+.tablespoon:hover{
+    text-decoration: underline;
+    color: red;
+}
+/*Pre defined footer aligned on the right */
+pre{
+    font-family: monospace;
+    text-align: right;
+}
+/*HTML and CSS validator aligned on the right */
+#validator{
+    text-align: right;
+}
+/*Pie summary having a specific line-height*/
+#piesummary{
+    line-height: 5pt;
+}
+/*Ordered list with bold font weight*/
+.recipedirection{
+    font-weight: bold;
+}
+/*Users comment with text styles*/
+#comment1{
+     font-style: italic;
+     background-color: #FFFFA8;
+ }
+#comment2{
+    font-style: italic;
+    background-color: #FFFFA8;
+}
+#comment3{
+    font-style: italic;
+    background-color: #FFFFA8;
+}
+/*Unordered list with images as bullets*/
+ul{
+    list-style-image: url("WAP all projects/Robel921.github.io/w1d2_recepi/recipeImages/pie_bullet.png");
+}
+/*home and search links style*/
+.links{
+    color: #A4A400;
+}
+#striked{
+    text-decoration-line: line-through;
+}
+
