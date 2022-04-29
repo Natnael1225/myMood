@@ -1,0 +1,24 @@
+div{
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(204, 182, 224);
+    border-radius: 5px;
+    width: 500px;
+}
+
+#btn{
+    background-color: rgb(216, 145, 145);
+    font-weight: bold;
+    font-size: 100%;
+}
+input{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    font-weight: bold;
+
+}
+body{
+    background-color: gray;
+}

@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column1,.column2,.column3 {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+.column1{
+    background-color: gray;
+}
+.column2{
+    background-color: lightgray;
+}
+.column3{
+    background-color: gray;
+}
+
+/* Clear floats after the columns */
+.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 700px) {
+
+    .column1,.column2{
+        width:50%;
+    }
+    .column3{
+        width:100%;
+    }
+}
+/*html and css validation icons on a bottom right fixed position and is opaque */
+#validation {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
+    text-align: right;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NerdLuv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <form action="http://mumstudents.org/params.php">
+        <div>
+            <label for="nameid">Name:</label> <input type="text" name="name" size="16" id="nameid"><br />
+            <label for="sexid">Gender:</label> <input type="radio" name="gender" value="Male" id="sexid">Male<input type="radio" name="gender" value="Female" checked>Female<br />
+            <label for="age">Age:</label> <input type="text" name="age" id="age" size="6" maxlength="2"><br />
+            <label for="ptid">Personality Type:</label> <input type="text" name="personality" size="6" maxlength="4" id="ptid">
+                <a href="http://www.humanmetrics.com/cgi-win/jtypes2.asp">(Don't Know Your Type?)</a>
+            <br />
+            <label for="os">Favorite Os:</label> <select name="OS" id="os" >
+                <option value="Windows" selected>Windows</option>
+                <option value="Mac">Mac OS X</option>
+                <option value="Linux">Linux</option>
+            </select><br />
+            <label for="seekingid">Seeking Age:</label> <input type="text" id="seekingid" name="seeingage" maxlength="2" size="6" placeholder="min">to
+            <input type="text" name="seekingage" maxlength="2" size="6" placeholder="max"><br />
+
+            <input type="submit" value="Sign Up"  id="btn">
+        </div>
+    </form>
+    <div class="footer">
+        <p id="validator">
+       <a href="https://validator.w3.org/check/referer">
+           <img alt="Validate" src="w3c-html.png"/>
+       </a>
+       <a href="https://jigsaw.w3.org/css-validator/check/referer">
+           <img alt="Valid CSS!" src="vcss.gif"/>
+       </a>
+   </p>  </div>
+
+</body>
+
+</html>
