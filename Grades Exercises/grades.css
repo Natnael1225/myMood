@@ -1,5 +1,5 @@
 body{
-    background-image: url("backm.jpg");
+    background-image: url("./images/BackGround1.png");
     width: 100%;
 }
 .home{
@@ -26,7 +26,7 @@ text-align: justify;
 
 input[type="text"]{
 font-family: Arial;
-background-color:lightgrey;
+background-color:rgb(201, 182, 236);
 color: Black;
 font-weight: bold;
 }
@@ -38,7 +38,7 @@ input[type="submit"]{
     font-size: 20px;
     background-image: url("capital.jpg");
     border: 2px solid black;
-    background-color:lightgrey;
+    background-color:rgb(56, 200, 34);
     border-radius: 30px;
     color: white;
 }
@@ -49,7 +49,7 @@ input[type="reset"]{
     font-size: 20px;
     background-image: url("capital.jpg");
     border: 2px solid black;
-    background-color:lightgrey;
+    background-color:rgb(237, 143, 143);
     border-radius: 30px;
     color: white;
 }
