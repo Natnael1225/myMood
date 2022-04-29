@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    margin: 0% 10%;
+    background-image: url("http://mumstudents.org/cs472/2018-05-RS/Labs/2/background.gif");
+}
+div.green{
+    border-style: solid;
+    background-color: white;
+    border-color:white;
+    border-width: 10px;
+}
+div.red{
+    text-align: right;
+    background-color: #A8F0F0;
+   }
+   .home{
+    vertical-align: middle;
+   }
+div.redb{
+    margin: 5px;
+    font-size: 14pt;
+}
+span.date{
+    border-color:purple;
+    border-bottom: dashed 2px;
+}
+
+div.friends{
+    border-style: solid;
+    border-color: rgb(49, 218, 218);;
+    border-width: 4px;
+    margin: 7px 0px 0px 0px; 
+    text-align: left; 
+    background-color: #A8F0F0;
+    border-radius: 15px;
+
+    float: left;
+    width: 23%;
+}
+
+div.blue{
+    border-style: solid;
+    border-color: #C2E9E9;
+    border-width: 4px;
+    margin: 10px 0px 0px 0px;
+    text-align: justify;
+    overflow: auto;
+    padding: 5px;
+    background-color: rgb(217, 238, 238); 
+    border-radius: 15px;
+    margin-left: 25%;
+}
+/* *:hover{
+    color: yellow;
+} */
+img.image{
+    float:right;
+}
+div.validator{
+    text-align: left;
+}
+/* div.blueb{
+    border-style: solid;
+    border-color:blue;
+    border-width: 5px;
+} */
