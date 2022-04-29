@@ -3,3 +3,7 @@ h1{
     text-decoration: underline;
     margin-left: 50%;
 }
+.picdisplay{
+    display:inline-flex;
+
+}

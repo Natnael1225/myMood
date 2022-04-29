@@ -1,13 +1,13 @@
 div{
     margin: 10px;
     padding: 20px;
-    background-color: rgb(204, 182, 224);
+    background-color: rgba(203, 139, 20, 0.436);
     border-radius: 5px;
     width: 500px;
 }
 
 #btn{
-    background-color: rgb(216, 145, 145);
+    background-color: rgb(76, 144, 13);
     font-weight: bold;
     font-size: 100%;
 }

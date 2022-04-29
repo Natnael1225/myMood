@@ -3,7 +3,8 @@
 body{
     font-family: Verdana,Tahoma, sans-serif;
     font-size: 8pt;
-    background-color: #e89bcc;
+    /*background-color: #e89bcc;*/
+    background-image:url(./images/background.png);
     /* background-image: url(WAP all projects/Robel921.github.io/MovieReview/images/background.png); */
     margin: 0px;
     padding: 0px;

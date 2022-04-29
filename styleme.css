@@ -13,5 +13,9 @@ h3{
 span{
     font-style: italic;
 }
+.picdisplay a {
+    display: inline-flex;
+    justify-content: space-between;
+}
 
 
