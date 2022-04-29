@@ -1,0 +1,51 @@
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image:url("./Background4.jpg");
+    background-color: rgb(88, 125, 86);
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+     font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+}
+
+#image{
+    margin: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+h1{
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(242, 255, 0);
+}
+
+#list{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(141, 225, 23, 0.478);
+    width: 500px;
+    
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    background-color: rgba(50, 188, 216, 0.064);
+}
+#welcome h1{
+    float: right;
+    background-color: rgba(207, 110, 30, 0.222);
+    margin: 10px;
+    padding: 0px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(67, 30, 8);
+
+}
