@@ -22,14 +22,14 @@ body{
 h1{
    
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(242, 255, 0);
+    color: rgba(34, 224, 16, 0.8);
 }
 
 #list{
-    margin: 10px;
+    margin: 20px;
     padding: 20px;
     border-radius: 5px;
-    background-color: rgba(141, 225, 23, 0.478);
+    background-color: rgba(141, 225, 23, 0.277);
     width: 500px;
     
 }
