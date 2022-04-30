@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TipCalculator</title>
+	<meta charset="utf-8"/>
+	<link href="style.css" type="text/css" rel="stylesheet" />
+    </head>
+
+<body>
+    
+
+<script type="text/javascript">
+
+function calcTip(){
+
+var billAmount = parseInt(document.getElementsByName("billAmount")[0].value);
+
+var ratePercent = parseInt(document.getElementsByName("ratePercent")[0].value);
+
+var taxAmount = parseInt(document.getElementsByName("taxAmount")[0].value);
+
+var totalPayment = billAmount * (1 + ratePercent/100) + taxAmount;
+
+document.getElementsByName("totalPayment")[0].value = totalPayment;
+
+}
+
+</script>
+
+<div><a href ="file:///C:/Users/Aman%20Negash/Documents/GitHub/myFirstRepository.github.io/Lab3-Nerdluv/NerdLuv.html"> BACK TO HOME</a>
+<table>
+<tr>
+<td>Bill Amount:</td>
+<td><input type="text" name="billAmount"></td>
+</tr>
+<tr>
+<td>Tip Rate%:</td>
+<td><input type="text" name="ratePercent"></td>
+</tr>
+<tr>
+<td>Tax:</td>
+<td><input type="text" name="taxAmount"></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" value = "Calculate" onclick="calcTip()"></td>
+</tr>
+<tr>
+<td>Total Payment:</td>
+<td><input type="text" name="totalPayment" readonly="readonly"></td>
+</tr>
+</table>
+</div>
+</body>
+</html>

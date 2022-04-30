@@ -1,0 +1,50 @@
+body{
+    background-color: rg(128, 128, 128);
+
+}
+.mainscreen{
+    height: 650px;
+    width: 80%;
+    margin: 50px;
+    padding: 20px;
+    background-color: rga(68,88,88,1);
+    overflow: scroll;
+}
+.home{
+    vertical-align: middle;
+}
+#Aman{
+    font-size: 2em;
+    color: orange;
+    text-shadow: -1px 2px red;
+}
+.favorite{
+    color: goldenrod;
+    border: 3px dotted black;
+}
+.mymood{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+}
+hr{
+	border-color: grey;
+	border-width: 2px;
+	border-radius: 2px;
+}
+img{
+		border-radius: 20px;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.name::first-letter{
+    font-size: 45px;
+}
