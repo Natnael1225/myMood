@@ -41,7 +41,7 @@ thead {
     line-height: 30px;
 }
 thead th {
-    background: #53777a;
+    background: #b6a765;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
@@ -59,7 +59,7 @@ nav {
     margin:15px 0 10px 0;
 }
 nav a {
-    background: #53777a;
+    background: #61806d;
     color: #fff;
     width: 80px;
     text-decoration: none;
