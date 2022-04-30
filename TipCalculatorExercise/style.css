@@ -1,6 +1,5 @@
 body{
-    background-color: rg(128, 128, 128);
-
+    background-color: rgb(247, 192, 115);
 }
 .mainscreen{
     height: 650px;
@@ -16,7 +15,7 @@ body{
 #Aman{
     font-size: 2em;
     color: orange;
-    text-shadow: -1px 2px red;
+    text-shadow: -1px 2px rgb(38, 255, 0);
 }
 .favorite{
     color: goldenrod;
