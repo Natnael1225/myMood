@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task List</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+</head>
+<body>
+      
+    <h1 id="header">
+         Task List
+    </h1>
+    <div class="tasks">
+    <div class="container">
+       <label> Task <input id ="task" type="text"> </label><br><br>    
+        <button id="btn1" onclick="retrieve()" > Add Task</button><br><br>  
+        <button id="btn2" onclick="clearInput();"> clear Task</button><br><br>
+    </div>
+    <div class="task">
+        <label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" value="retrive()"></textarea>
+        </label>
+    </div>
+</div>
+</body>
+<script>
+    function retrieve(){
+        let input1 = document.getElementById('task').value;
+        let input2 = document.getElementById('textarea').value;
+        document.getElementById('textarea').innerText = input2 +'\n                              '+ input1;
+        console.log(input2);
+    }
+    function clearInput(){
+        document.getElementById('task').value = '';
+        document.getElementById('textarea').value = '';
+    }
+</script>
+</html>
