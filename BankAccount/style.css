@@ -11,9 +11,9 @@ body{
     background-color: rgb(128, 128, 128);
 }
 h1{
-    color: rgb(120, 30, 210);
-    background-color: rgb(198, 147, 70);
+    color: rgba(21, 87, 229, 0.895);
+    background-color: rgba(211, 186, 23, 0.679);
     border-style: inset;
-    margin-right: 700px;
+    margin-right: 1200px;
 
 }
