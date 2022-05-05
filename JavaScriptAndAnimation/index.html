@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ASCIImation</title>
+    <link href="ascii.css" type="text/css" rel="stylesheet" />
+    <script src="animation.js"></script>
+    <script src="ascii.js"></script>
+</head>
+
+<body id="body1">
+
+<h1 id="head">CSE 190 M ASCII ANIMATION VIEWER</h1>
+
+<textarea id="viewBoard" cols="80" rows="20" readonly></textarea>
+
+<div id="allControls">
+
+    <fieldset class="controls">
+        <legend>Play Controls:</legend>
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+    </fieldset>
+
+    <fieldset class="controls">
+        <legend>Animation:</legend>
+        <select id="animationSelector" name="animation">
+            <option value="blank">Blank</option>
+            <option value="exercise">Exercise</option>
+            <option value="juggler">Juggler</option>
+            <option value="bike">Bike</option>
+            <option value="dive">Dive</option>
+            <option value="custom">Custom</option>
+        </select>
+    </fieldset>
+
+    <fieldset class="controls">
+        <legend>Size:</legend>
+        <select id="sizeSelector" name="size">
+            <option value="t">Tiny</option>
+            <option value="s">Small</option>
+            <option value="m" selected>Medium</option>
+            <option value="l">Large</option>
+            <option value="xl">Extra Large</option>
+            <option value="xxl">XXL</option>
+        </select>
+    </fieldset>
+
+    <fieldset class="controls">
+        <legend>Speed:</legend>
+        <label><input id="turbo" type="checkbox">Turbo</label>
+    </fieldset>
+
+</div>
+<div id="validation">
+    <a href="https://validator.w3.org/check/referer">
+        <img alt="Validate" src="images/w3c-html.png"/>
+    </a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img alt="Valid CSS!" src="images/w3c-css.png"/>
+    </a>
+    <a href="https://webster.cs.washington.edu/jslint/?referer">
+        <img src="images/w3c-js.png" alt="Valid Js" />
+    </a>
+</div>
+</body>
+</html>

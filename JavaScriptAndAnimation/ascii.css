@@ -1,0 +1,40 @@
+
+body{
+    background-color: #CCCCFF;
+    font: 14pt bold;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#head{
+    font-size: 32pt;
+    text-align: center;
+    margin: 0px;
+}
+
+#viewBoard{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    font-family: monospace;
+    font: 12pt bold;
+}
+
+#allControls{
+    width: fit-content;
+    margin: auto;
+}
+
+.controls{
+    border: 5px solid black;
+    display: inline;
+}
+
+/*html and css validation icons on a bottom right fixed position and is opaque */
+#validation {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    opacity: 0.5;
+    text-align: right;
+}
